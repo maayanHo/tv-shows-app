@@ -1,7 +1,7 @@
 import '@/styles/global.scss';
 
 export const metadata = {
-  title: 'Powerpuff Girls',
+  title: 'tv-shows-app',
   description: 'TV Show Details and Episodes',
 };
 
