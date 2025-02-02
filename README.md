@@ -27,7 +27,7 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/tv-shows-app.git
 cd tv-shows-app
 ```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```
 npm install
 ```
@@ -35,7 +35,7 @@ npm install
 yarn install
 ```
 
-3️⃣ Start the Development Server
+### 3️⃣ Start the Development Server
 ```
 npm run dev
 ```
@@ -45,18 +45,18 @@ yarn dev
 
 The app will be available at [http://localhost:3000](http://localhost:3000)
 
-4️⃣ Build & Run for Production
+### 4️⃣ Build & Run for Production
 ```
 npm run build
 npm start
 ```
 
-🔬 Running Tests
+## 🔬 Running Tests
 ```
 npm test
 ```
 
-📂 Project Structure
+## 📂 Project Structure
 ```
 /tv-shows-app
 │── /components        # Reusable UI components
