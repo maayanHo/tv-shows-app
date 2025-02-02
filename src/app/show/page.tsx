@@ -1,9 +1,9 @@
 import { fetchShow } from "@/utils/api";
 import styles from "@/styles/Show.module.scss";
 import Breadcrumb from "@/components/Breadcrumb";
-import ShowHeader from "@/components/ShowHeader";
+import ShowHeader from "@/components/ShowHeader/ShowHeader";
 import SeasonDropdown from "@/components/SeasonDropdown";
-import EpisodeCard from "@/components/EpisodeCard";
+import EpisodeCard from "@/components/EpisodeCard/EpisodeCard";
 import { Episode, Show } from "@/types/index";
 import Link from 'next/link';
 

@@ -51,6 +51,11 @@ npm run build
 npm start
 ```
 
+🔬 Running Tests
+```
+npm test
+```
+
 📂 Project Structure
 ```
 /tv-shows-app
