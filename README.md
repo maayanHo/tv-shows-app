@@ -1,4 +1,4 @@
-# The Powerpuff Girls - TV Show Explorer
+# TV Show Explorer
 
 A **Next.js** web application that allows users to browse and explore TV shows and episodes using the **TV Maze API**.  
 The app is built with **TypeScript**, supports **Server-Side Rendering (SSR)**, and is fully **responsive**.
@@ -23,15 +23,14 @@ nvm use 18
 
 ### 1️⃣ Clone the Repository
 ```
-git clone https://github.com/YOUR_GITHUB_USERNAME/powerpuff-girls-tv.git
-cd powerpuff-girls-tv
+git clone https://github.com/YOUR_GITHUB_USERNAME/tv-shows-app.git
+cd tv-shows-app
 ```
 
 2️⃣ Install Dependencies
 ```
 npm install
 ```
-# or
 ```
 yarn install
 ```
@@ -40,7 +39,6 @@ yarn install
 ```
 npm run dev
 ```
-# or
 ```
 yarn dev
 ```
@@ -55,7 +53,7 @@ npm start
 
 📂 Project Structure
 ```
-/powerpuff-girls-tv
+/tv-shows-app
 │── /components        # Reusable UI components
 │── /pages             # Next.js pages (Show & Episode)
 │── /styles            # SCSS for styling
