@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Powerpuff Girls - TV Show Explorer
 
-## Getting Started
+A **Next.js** web application that allows users to browse and explore TV shows and episodes using the **TV Maze API**.  
+The app is built with **TypeScript**, supports **Server-Side Rendering (SSR)**, and is fully **responsive**.
 
-First, run the development server:
+## 🚀 Features
+- 📺 **Show Page**: Displays show details, cover image, and a list of episodes.
+- 🎬 **Episode Page**: Displays episode details, cover image, and description.
+- 🔄 **Server-Side Rendering (SSR)**: Faster load times & SEO-friendly.
+- 🎨 **Responsive Design**: Works on desktop and mobile with breakpoints.
+- 🔗 **Dynamic Routing**: Show & episode details have separate routes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🛠 Installation & Setup
+This project requires **Node.js 18+**.  
+To check your Node.js version, run:
+```
+node -v
+nvm install 18
+nvm use 18
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1️⃣ Clone the Repository
+```
+git clone https://github.com/YOUR_GITHUB_USERNAME/powerpuff-girls-tv.git
+cd powerpuff-girls-tv
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2️⃣ Install Dependencies
+```
+npm install
+```
+# or
+```
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3️⃣ Start the Development Server
+```
+npm run dev
+```
+# or
+```
+yarn dev
+```
 
-## Learn More
+The app will be available at [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+4️⃣ Build & Run for Production
+```
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📂 Project Structure
+```
+/powerpuff-girls-tv
+│── /components        # Reusable UI components
+│── /pages             # Next.js pages (Show & Episode)
+│── /styles            # SCSS for styling
+│── /utils             # API functions
+│── next.config.js     # Next.js configuration
+│── tsconfig.json      # TypeScript configuration
+│── README.md          # Project documentation
+│── package.json       # Dependencies & scripts
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📡 API Integration
+This project fetches TV show data from the **[TV Maze API](https://www.tvmaze.com/api)**.
 
-## Deploy on Vercel
+- **Show Details:** [GET https://api.tvmaze.com/shows/:id](https://api.tvmaze.com/shows/6771)
+- **Episodes List:** [GET https://api.tvmaze.com/shows/:id/episodes](https://api.tvmaze.com/shows/6771/episodes)
+- **Episode Details:** [GET https://api.tvmaze.com/episodes/:id](https://api.tvmaze.com/episodes/:id)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📜 License
+This project is open-source and available under the MIT License.
