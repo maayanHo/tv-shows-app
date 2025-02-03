@@ -59,10 +59,13 @@ npm test
 ## 📂 Project Structure
 ```
 /tv-shows-app
+│── /app               # For Next.js App Router (optional)
 │── /components        # Reusable UI components
-│── /pages             # Next.js pages (Show & Episode)
 │── /styles            # SCSS for styling
+│── /types             # types
 │── /utils             # API functions
+│── /hooks             # Custom React hooks (optional)
+│── /context           # React Context (optional)
 │── next.config.js     # Next.js configuration
 │── tsconfig.json      # TypeScript configuration
 │── README.md          # Project documentation
